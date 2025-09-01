@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sign-up form</title>
+</head>
+<body>
+
+    <div class ="container">
+
+        <div class = "pic">
+            <div class="logo">
+                <img src="odin-lined.png" alt="odin-logo">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+
+        <div class = "info">
+            <div class="sect" id="para">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <i>now</i> to get started.
+                </p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+
+            <div class="sect" id="form">
+                <p id="fpara">Let's do this!</p>
+
+                <form action="">
+                    <div class="textbar">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" class="first_name">
+                    </div>
+                
+                    <div class="textbar">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" class="last_name">
+                    </div>
+                
+                    <div class="textbar">
+                        <label for="e-mail">EMAIL</label>
+                        <input type="email" class="e-mail">
+                    </div>
+                
+                    <div class="textbar">
+                        <label for="phone_no">PHONE NUMBER</label>
+                        <input type="tel" class="phone_no"">
+                    </div>
+                
+                    <div class="textbar">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" class="password" minlength="8" pattern="(?=.*[A-Z])(?=.*[0-9]).{8,}">
+                    </div>
+                
+                    <div class="textbar">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" class="confirm" minlength="8" pattern="(?=.*[A-Z])(?=.*[0-9]).{8,}">
+                    </div>
+                
+                </form>
+            </div>
+
+            <div class="sect" id="butn">
+                <button>Create Account</button>
+                <p>Already have a account? <a href="#">Log in</a></p>
+                
+            </div>
+        </div>
+
+    </div>
+</body>
+</html
